@@ -3,12 +3,12 @@ name: Hello World
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   hello-world:
     runs-on: ubuntu-24.04
 
     steps:
-      - name : Print Hello world
-        run : echo 'Hello World!'
+      - name: Print Hello world
+        run: echo 'Hello World!'
